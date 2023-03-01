@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CV DIEGO GARCIA BUONACUCINA</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/estilos.css" />
+<link rel="icon" type="image/x-icon" href="imagenes/favicon.ico">
+</head>
+<body>
+
+
+
+<header>
+    <table>
+        <td><img src="imagenes/foto carnet.jpg" alt="no se puede cargar" height="200" width="100"></td>
+        <td><h2>DIEGO GARCIA BUONACUCINA</h2></td>
+    </table>
+  
+  
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><button type="button" onclick="datos()">Datos Personales</button></li>
+      <li><button type="button" onclick="estudios()">Estudios</button></li>
+      <li><button type="button" onclick="cursos()">Cursos Realizados</button></li>
+      <li><button type="button" onclick="laboral()">Experencia Laboral</button></li>
+      <li><button type="button" onclick="galeria()">Galeria</button></li>
+    </ul>
+  </nav>
+  
+  <article>
+
+    <p id="presentacion">Mi nombre es Diego, soy Diseñador Industrial de la UNLP, me especialice en ingenieria inversa y diseño y fabricacion de moldes </p>
+
+    
+
+    <script>
+    function datos() {
+     document.getElementById("presentacion").innerHTML = `<p>Apellido: García Buonacucina</p>
+     <p> Nombres: Diego</p>
+     <p>DNI: 22.375.133</p>
+     <p>Fecha de Nacimiento: 16/11/1971 (51 años).</p>
+     <p>Estado civil: Divorciado.</p>
+     <p>Hijos: 1 (16 años)</p>
+     <p>Dirección: 136 BIS nro. 482 City Bell</p>
+     <p>Teléfono particular: (0221) 475-2288</p>
+     <p>Celular:(0221) 15-357-0731</p>
+     <p>Email : garciab.diego@gmail.com</p>`;
+}
+    
+    </script>
+    <script>
+    function estudios() {
+     document.getElementById("presentacion").innerHTML = `<h2>Secundarios: </h2>
+        <p>•	Título de Bachiller Mercantil del Instituto José Manuel Estrada de City Bell.</p>
+        <h2>Universitarios: </h2>
+        <p>•	2 años de Ciencias Económicas en la UNLP, 5 materias aprobadas.</p>
+        <p>•	Diseño Industrial en la UNLP (Universidad Nacional de La Plata), CONCLUIDO</p>`;
+}
+    </script>
+    
+    <script>
+        function cursos() {
+         document.getElementById("presentacion").innerHTML = `<p>•	MCP (MICROSOFT CERTIFIED PROFESIONAL: CURSADO ADMINISTRACIÓN Y SOPORTE DE MICROSOFT WINDOWS NT 4.0; CURSADO Y APROBADO EN BS TRAINING CENTER LA PLATA - MICROSOFT CERTIFIED TECHNICAL EDUCATION CENTER.</p>
+         <p>  </p>
+        <p>•	VISUAL BASIC 6.0, CURSO DE INICIACIÓN en INSETEC INFORMÁTICA</p>
+        <p>•	CURSO DE PRO-ENGINEER</p>
+        <p>•	DIPLOMATURA EN TECNOLOGÍA Y PROCESAMIENTO DE TERMOPLÁSTICOS DICTADO POR EL INTI PLASTICOS-- AÑO 2020</p>
+        <p>•	TALLER DE DESARROLLO DEL COMPORTAMIENTO EMPRENDEDOR ----EMPRETEC ---- UNION INDUSTRIAL DE BERAZATEGUI --- AÑO 2010</p>`;
+}
+        </script>  
+
+
+    <script>
+    function laboral() {
+     document.getElementById("presentacion").innerHTML = ` <p>Periodo: 11/2021 a actualidad</p>
+        <p>Empresa: AVARIS</p>
+        <p>Cargos: Coordinador de Fabrica</p>
+        <p>Detalle de algunas de las actividades realizadas:</p>
+        <p>Coordinación de producción, logística. Atención a clientes y proveedores. </p>
+        
+        <p></p>
+        
+        <p>Periodo: 11/2018 a 11/2021</p>
+        <p>Empresa: COARDEL</p>
+        <p>Cargos: Coordinador de Fabrica</p>
+        <p>Detalle de algunas de las actividades realizadas: Coordinación de producción, logística. Diseño de moldes y manejo de matricería</p>
+        <p>Motivo de Egreso: renuncia por cambio de empleo</p>`;
+    }
+    </script>
+
+
+    
+    <script>
+     function galeria() {
+     document.getElementById("presentacion").innerHTML = `
+     
+     <div class="gallery">
+  <a target="_blank" href="imagenes/fondo.jpg">
+    <img src="imagenes/fondo.jpg" alt="Cinque Terre" width="600" height="400">
+   </a>
+   <div class="desc">Diseño y Proyecto </div>
+  </div>
+
+  <div class="gallery">
+   <a target="_blank" href="imagenes/solid.jpg">
+    <img src="imagenes/solid.jpg" alt="Forest" width="600" height="400">
+   </a>
+   <div class="desc">Dibujos Parametricos</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="imagenes/3d.jpg">
+    <img src="imagenes/3d.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Impresion 3D</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="imagenes/cnc.jpg">
+      <img src="imagenes/cnc.jpg" alt="Mountains" width="600" height="400">
+    </a>
+  <div class="desc">Mecanizado a CNC</div>
+  </div>`;
+}
+    </script>
+
+
+  </article>
+</section>
+
+<footer>
+  <p>Celular:(0221) 15-357-0731</p>
+  <p>Email : garciab.diego@gmail.com</p>
+</footer>
+
+</body>
+</html>
+
