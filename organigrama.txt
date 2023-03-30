@@ -1,0 +1,21 @@
+favicon y nombre de pagina
+
+Cabecera 
+foto y nombre completo
+
+barra lateral de navegacion
+listado
+botones
+datos personales
+estudios
+cursos relizados
+experiencia laboral
+galeria de fotos
+
+pie
+datos de contacto
+
+panel principal
+empieza con pequeño texto de presentacion
+y se muestran los datos de los distintos 
+botones

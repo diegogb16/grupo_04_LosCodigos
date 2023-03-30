@@ -37,7 +37,7 @@ article {
   width: 85%;
   background-color: #f1f1f1;
   height: 400px; 
-  
+  background-image: url("imagenes/fondo.jpg");
 }
 
 
@@ -89,7 +89,7 @@ p{
 button {
   color:rgb(255, 255, 255) ;
   background-color: rgb(233, 14, 14);
-  border-color: transparent;
+  border-color: rgb(0, 0, 0);
   border-radius: 2mm;
   width: 100px;
   padding: 3px;
