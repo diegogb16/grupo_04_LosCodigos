@@ -9,10 +9,10 @@ body {
 
 
 header {
-  background-color: rgb(235, 137, 10);
-  padding: 30px;
+  background-color: rgb(10, 115, 235);
+  padding: 10px;
   text-align: right;
-  font-size: 35px;
+  font-size: 25px;
   color: white;
 }
 
@@ -21,7 +21,7 @@ nav {
   float: left;
   width: 15%;
   height: 400px; 
-  background: rgb(241, 182, 113);
+  background: rgb(113, 200, 241);
   padding: 20px;
 }
 
@@ -33,11 +33,12 @@ nav ul {
 
 article {
   float: left;
-  padding: 20px;
+  padding: 10px;
   width: 85%;
   background-color: #f1f1f1;
   height: 400px; 
-  background-image: url("imagenes/fondo.jpg");
+  background-image:"fotosinicio2.jpg" no-repeat center fixed; 
+  background-size: cover;
 }
 
 
@@ -49,7 +50,7 @@ section::after {
 
 
 footer {
-  background-color: rgb(235, 137, 10);
+  background-color: rgb(10, 115, 235);
   padding: 10px;
   text-align: center;
   color: white;
@@ -75,20 +76,21 @@ td {
 
 ul li{
   
-  margin: 10;
-  padding: 20;
+  margin: 1;
+  padding: 1;
+  a
 }
 
 p{
   color:rgb(0, 0, 0);
-  height: 0.3cm;
+  height: 1px;
  
 }
 
 
 button {
   color:rgb(255, 255, 255) ;
-  background-color: rgb(233, 14, 14);
+  background-color: rgb(38, 109, 24);
   border-color: rgb(0, 0, 0);
   border-radius: 2mm;
   width: 100px;
@@ -117,3 +119,4 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CV DIEGO GARCIA BUONACUCINA</title>
+<title>CLINICA SANTA BARBARA</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/estilos.css" />
@@ -13,14 +13,12 @@
 
 <header>
   <table>
-    <td><img src="imagenes/foto carnet.jpg" alt="no se puede cargar" height="200" width="100"></td>
-    <td><h2>DIEGO GARCIA BUONACUCINA</h2></td>
+    <td><h3>CLINICA SANTA BARBARA</H3></td>
+    <td><img src="imagenes/top.png" alt="no se puede cargar" height="200" width="900"></td>
+    
+    
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td> <a href="INDEX.HTML">
+    <!--<td> <a href="INDEX.HTML">
       <img src="imagenes/espanol.jpg" alt="espanol"  >
      </a>
       <h6>espanol</h6>
@@ -29,7 +27,7 @@
       <img src="imagenes/ingles.jpg" alt="ingles" >
       </a> 
       <h6>ingles</h6>
-    </td>
+    </td>-->
   </table>
     </table>
   
@@ -39,76 +37,104 @@
 <section>
   <nav>
     <ul>
-      <li><button type="button" onclick="datos()">Datos Personales</button></li>
-      <li><button type="button" onclick="estudios()">Estudios</button></li>
-      <li><button type="button" onclick="cursos()">Cursos Realizados</button></li>
-      <li><button type="button" onclick="laboral()">Experencia Laboral</button></li>
+      <li><button type="button" onclick="autoridades()">Autoridades</button></li>
+      <li><button type="button" onclick="especialidades()">Especialidades</button></li>
+      <li><button type="button" onclick="valores()">Valores</button></li>
+      <li><button type="button" onclick="mision()">Mision / Vision</button></li>
       <li><button type="button" onclick="galeria()">Galeria</button></li>
+      <li><button type="button" onclick="contacto()">contacto</button></li>
     </ul>
   </nav>
   
   <article>
 
-    <p id="presentacion">Mi nombre es Diego, soy Diseñador Industrial de la UNLP, me especialice en ingenieria inversa y diseño y fabricacion de moldes </p>
+    <h3 id="presentacion">La Clinica Santa Barbara es reconocida por la profesionalidad de su staff médico y de enfermería. Además del excelente servicio de hotelería que brinda a sus pacientes y familiares.
+
+      El edificio ocupa 7.129 m2, y cuenta con una infraestructura moderna y un elevado desarrollo tecnológico aplicado a cada una de las especialidades dedicadas al tratamiento de patologías complejas y emergencias médicas.
+
+    
+      
+       
+    </h3>
 
     
 
     <script>
-    function datos() {
-     document.getElementById("presentacion").innerHTML = `<H2>DATOS PERSONALES</H2>
-     <p>Apellido: García Buonacucina</p>
-     <p> Nombres: Diego</p>
-     <p>DNI: 22.375.133</p>
-     <p>Fecha de Nacimiento: 16/11/1971 (51 años).</p>
-     <p>Estado civil: Divorciado.</p>
-     <p>Hijos: 1 (16 años)</p>
-     <p>Dirección: 136 BIS nro. 482 City Bell</p>
-     <p>Teléfono particular: (0221) 475-2288</p>
-     <p>Celular:(0221) 15-357-0731</p>
-     <p>Email : garciab.diego@gmail.com</p>`;
+    function autoridades() {
+      document.getElementById("presentacion").innerHTML = `<table>
+        <td>
+          <ul><li><h2>AUTORIDADES</h2></li>
+              <li><p>Director General</p></li>
+              <li>Dr Juan Carlos Salvetti</li>
+              <li><p>Director Administrativo</p></li>
+              <li>Cr Mariano Chiusaroli</li>
+          </ul>
+        </td>
+        <td></td>
+        <td>
+          <ul><li></li>
+              <li><p>Director Médico</p></li>
+              <li>Dr Jorge Barouille</li>
+              <li><p>Director Imagenes</p></li>
+              <li>Dr Juan Canedo</li>
+          </ul>
+        </td>
+    
+    
+    
+    
+    </table>`;
 }
     
     </script>
     <script>
-    function estudios() {
-     document.getElementById("presentacion").innerHTML = `<H2>ESTUDIOS</H2>
-        <h2>Secundarios: </h2>
-        <p>•	Título de Bachiller Mercantil del Instituto José Manuel Estrada de City Bell.</p>
-        <h2>Universitarios: </h2>
-        <p>•	2 años de Ciencias Económicas en la UNLP, 5 materias aprobadas.</p>
-        <p>•	Diseño Industrial en la UNLP (Universidad Nacional de La Plata), CONCLUIDO</p>`;
+    function especialidades() {
+     document.getElementById("presentacion").innerHTML = `<H2>ESPECIALIDADES</H2>
+      <table>
+        <td>
+          <ul>
+            <li>Servicio de Oftalmología</li>
+            <li>Servicio de Neurología y Neurocirugía</li>
+            <li>Servicio de Foniatría</li>
+            <li>Servicio de Otorrinolaringología</li>
+          </ul>
+        </td>
+        <td></td>
+        <td>
+          <ul>
+            <li>Servicio de Urología</li>
+            <li>Servicio de Cardiología</li>
+            <li>Servicio de Gastroenterología</li>
+            <li>Servicio de Cámara Gamma</li>
+        </td>
+      </table>`;
 }
     </script>
     
     <script>
-        function cursos() {
-         document.getElementById("presentacion").innerHTML = `<H2>CURSOS</H2>
-         <p>•	MCP (MICROSOFT CERTIFIED PROFESIONAL: CURSADO ADMINISTRACIÓN Y SOPORTE DE MICROSOFT WINDOWS NT 4.0; CURSADO Y APROBADO EN BS TRAINING CENTER LA PLATA - MICROSOFT CERTIFIED TECHNICAL EDUCATION CENTER.</p>
-         <p>  </p>
-        <p>•	VISUAL BASIC 6.0, CURSO DE INICIACIÓN en INSETEC INFORMÁTICA</p>
-        <p>•	CURSO DE PRO-ENGINEER</p>
-        <p>•	DIPLOMATURA EN TECNOLOGÍA Y PROCESAMIENTO DE TERMOPLÁSTICOS DICTADO POR EL INTI PLASTICOS-- AÑO 2020</p>
-        <p>•	TALLER DE DESARROLLO DEL COMPORTAMIENTO EMPRENDEDOR ----EMPRETEC ---- UNION INDUSTRIAL DE BERAZATEGUI --- AÑO 2010</p>`;
+        function valores() {
+         document.getElementById("presentacion").innerHTML = `
+         <H2>VALORES</H2>
+         <h5>•	Calidad de Atención. Trabajamos para el paciente: Es la orientación fundamental del sanatorio y hace referencia a centrar nuestros    servicios en las necesidades y expectativas del usuario tanto desde el punto de vista técnico, como de información y trato.</h5>
+         <h5>•Respeto mutuo: Respeto personal y profesional entre las personas del sanatorio independientemente de la profesión o las características individuales de cada persona.</h5>
+         <h5>•Apuesta por la innovación: Implica una aptitud proactiva ante el cambio para la mejora, abarcando aspectos como la formación continua, el punto de referencia, la gestión del conocimiento y el desarrollo tecnológico.</h5>
+         <h5>•Trabajo en equipo: El trabajo en equipo y la coordinación entre las distintas personas y procesos del sanatorio para potenciar la sinergia y la fuerza del equipo humano.</h5>
+         <h5>•Comunicación: La posibilidad y necesidad de comunicarnos de forma abierta y honesta entre las personas y los diferentes estamentos del sanatorio, buscando la transversabilidad.</h5>
+         <h5>•Ética: Nos dirigimos de manera honesta, transparente y siempre pensando en la calidad y dignidad del paciente y su familia.</h5>
+         `;
 }
         </script>  
 
 
     <script>
-    function laboral() {
-     document.getElementById("presentacion").innerHTML = `<h2>EXPERIENCIA LABORAL</h2>
-        <p>Periodo: 11/2021 a actualidad</p>
-        <p>Empresa: AVARIS</p>
-        <p>Cargos: Coordinador de Fabrica</p>
-        <p>Detalle de algunas de las actividades realizadas:</p>
-        <p>Coordinación de producción, logística. Atención a clientes y proveedores. </p>
+    function mision() {
+     document.getElementById("presentacion").innerHTML = `
+     <h2>MISION</h2>
+        <H1>La misión de La Clinica Santa Barbara es brindar a la familia asistencia médica de calidad, garantizando atención personalizada, donde se destaca la ética profesional y la vocación de servicio. </h1>
         
-        <p></p>
+     <h2>VISION</h2>
         
-        <p>Periodo: 11/2018 a 11/2021</p>
-        <p>Empresa: COARDEL</p>
-        <p>Cargos: Coordinador de Fabrica</p>
-        <p>Detalle de algunas de las actividades realizadas: Coordinación de producción, logística. Diseño de moldes y manejo de matricería</p>
-        <p>Motivo de Egreso: renuncia por cambio de empleo</p>`;
+        <h1>La Clinica Santa Barbara intenta ser un modelo de referencia para la atención médica en Zona Sur. Destacándonos en la Calidad Humana, Calidad Médica, y con un standard equilibrado de confort y tecnología.</h1>`;
     }
     </script>
 
@@ -119,42 +145,106 @@
      document.getElementById("presentacion").innerHTML = `<H2>GALERIA DE IMAGENES</H2>
      
      <div class="gallery">
-  <a target="_blank" href="imagenes/fondo.jpg">
-    <img src="imagenes/fondo.jpg" alt="Cinque Terre" width="600" height="400">
+  <a target="_blank" href="imagenes/fotosinicio1.jpg">
+    <img src="imagenes/fotosinicio1.jpg" alt="La Clinica" width="600" height="400">
    </a>
-   <div class="desc">Diseño y Proyecto </div>
+   <div class="desc">La Clinica </div>
   </div>
 
   <div class="gallery">
-   <a target="_blank" href="imagenes/solid.jpg">
-    <img src="imagenes/solid.jpg" alt="Forest" width="600" height="400">
+   <a target="_blank" href="imagenes/fotosinicio2.jpg">
+    <img src="imagenes/fotosinicio2.jpg" alt="Recepcion" width="600" height="400">
    </a>
-   <div class="desc">Dibujos Parametricos</div>
+   <div class="desc">Recepcion</div>
   </div>
 
   <div class="gallery">
-    <a target="_blank" href="imagenes/3d.jpg">
-    <img src="imagenes/3d.jpg" alt="Northern Lights" width="600" height="400">
+    <a target="_blank" href="imagenes/fotosinicio4.jpg">
+    <img src="imagenes/fotosinicio4.jpg" alt="Tranquilidad" width="600" height="400">
     </a>
-    <div class="desc">Impresion 3D</div>
+    <div class="desc">Tranquilidad</div>
   </div>
 
   <div class="gallery">
-    <a target="_blank" href="imagenes/cnc.jpg">
-      <img src="imagenes/cnc.jpg" alt="Mountains" width="600" height="400">
+    <a target="_blank" href="imagenes/fotosinicio6.jpg">
+      <img src="imagenes/fotosinicio6.jpg" alt="Imagenes" width="600" height="400">
     </a>
-  <div class="desc">Mecanizado a CNC</div>
+  <div class="desc">Imagenes</div>
   </div>`;
 }
     </script>
+
+<script>
+  function contacto() {
+   document.getElementById("presentacion").innerHTML = `
+   <table>
+    <td>
+   <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+          <fieldset>
+            <legend>Contactanos llenando todos los campos</legend>
+
+            <div>
+              <label>Nombre y Apellido:</label>
+              <input type="text" placeholder="Ingrese su nombre y apellido" />
+            </div>
+
+            <div>
+              <label>D.N.I:</label>
+              <input type="number" placeholder="Ingrese su DNI" />
+            </div>
+
+            <div>
+              <label>Telefono:</label>
+              <input type="number" placeholder="Ingrese su telefono" />
+            </div>
+
+            <div>
+              <label>Correo electronico:</label>
+              <input type="email" placeholder="Ingrese su correo electronico" />
+            </div>
+
+            <div>
+              <label>Mensaje:</label>
+              <textarea></textarea>
+            </div>
+
+            <div>
+              <input type="submit" value="Enviar" />
+            </div>
+          </fieldset>
+        </form>
+        </td>
+        <td>
+        <br />
+        <br />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.45340261048!2d-58.51569881524789!3d-34.6156547698136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1694981912861!5m2!1ses-419!2sar"
+          width="300"
+          height="225"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+      </td>
+    
+    
+    
+    
+    `;
+  }
+  </script>
 
 
   </article>
 </section>
 
 <footer>
-  <p>Celular:(0221) 15-357-0731</p>
-  <p>Email : garciab.diego@gmail.com</p>
+  <p>Telefono:(0221) 475-5555</p>
+  <p>Direccion : Cantilo y Jorge Bell - City Bell</p>
 </footer>
 
 </body>

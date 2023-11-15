@@ -1,16 +1,17 @@
 favicon y nombre de pagina
 
 Cabecera 
-foto y nombre completo
+foto y nombre clinica
 
 barra lateral de navegacion
 listado
 botones
-datos personales
-estudios
-cursos relizados
-experiencia laboral
+autoridades
+especialidades
+valores
+mision vision
 galeria de fotos
+contacto
 
 pie
 datos de contacto
