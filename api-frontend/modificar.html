@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alta de productos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+
+<body>
+    <main class="container">
+
+        <div>
+            <a href="index.html" role="button">Volver al menu</a>
+        </div>
+
+        <br />
+        <div>
+            <h1>Modificacion de producto</h1>
+
+            <form id="formulario" method="post">
+                <label for="codigo">Codigo</label>
+                <input type="text" name="codigo" id="codigo" readonly disabled >
+
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" required>
+
+                <label for="precio">Precio</label>
+                <input type="number" name="precio" id="precio" required>
+
+                <label for="stock">Stock</label>
+                <input type="number" name="stock" id="stock" value="0">
+
+                <button type="submit">Enviar</button>
+                <button type="reset" class="secondary">Limpiar</button>
+
+            </form>
+        </div>
+    </main>
+
+    <script src="./js/modificar.js"></script>
+
+</body>
+
+</html>
